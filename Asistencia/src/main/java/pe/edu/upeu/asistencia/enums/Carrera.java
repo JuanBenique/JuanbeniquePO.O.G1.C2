@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Getter
 
 
-public enum CARRERA {
+public enum Carrera {
     SISTEMAS(FACULTAD.FIA),
     CIVIL(FACULTAD.FIA),
     AMBIENTRAL(FACULTAD.FIA),
@@ -21,7 +21,7 @@ public enum CARRERA {
     ;
      private FACULTAD facultad;
 
-     CARRERA(FACULTAD facultad) {
+     Carrera(FACULTAD facultad) {
          this.facultad = facultad;
      }
 

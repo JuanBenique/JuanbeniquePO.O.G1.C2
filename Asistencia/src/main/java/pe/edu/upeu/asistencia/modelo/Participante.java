@@ -3,9 +3,7 @@ package pe.edu.upeu.asistencia.modelo;
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.StringProperty;
 import lombok.*;
-import pe.edu.upeu.asistencia.enums.CARRERA;
 import pe.edu.upeu.asistencia.enums.TipoParticipante;
-import pe.edu.upeu.asistencia.modelo.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
