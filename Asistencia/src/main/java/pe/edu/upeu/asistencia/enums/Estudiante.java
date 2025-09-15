@@ -9,7 +9,7 @@ public class Estudiante {
     GENERO genero;
     Carrera carrera;
 
-    public Estudiante(String codigo, String nombre, String apellido, GENERO genero,Carrera carrera) {
+    public Estudiante(String codigo, String nombre, String apellido, GENERO genero, Carrera carrera) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -19,7 +19,7 @@ public class Estudiante {
     public static void main(String[] args) {
         Estudiante e=new Estudiante("202420357", "juan","Benique",GENERO.Masculino, Carrera.SISTEMAS);
         System.out.println(e.codigo+""+e.genero+e.carrera );
-        for (Carrera c:Carrera.values()){
+        for (Carrera c: Carrera.values()){
             System.out.println(c);
         }
 

@@ -1,7 +1,6 @@
 package pe.edu.upeu.asistencia.control;
 
 import javafx.fxml.FXML;
-import
 import org.springframework.stereotype.Controller;
 import pe.edu.upeu.asistencia.enums.TipoParticipante;
 
