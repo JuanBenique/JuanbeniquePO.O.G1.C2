@@ -1,7 +1,6 @@
 package pe.edu.upeu.asistencia.servicio;
 
 import pe.edu.upeu.asistencia.modelo.Participante;
-import pe.edu.upeu.asistencia.modelo.Participante;
 
 import java.util.List;
 
@@ -14,4 +13,11 @@ public interface ParticipanteServicioI {
 
     Participante findById(int index );
 
+    Participante update(Participante participante);
+
+    void delete(String dni);
+
+    Participante findById(String dni);
+
+    List<Participante> findAll();
 }
